@@ -1,0 +1,12 @@
+README
+----------------------
+Functia incepe prin a tokeniza primul caracter al stringului de input, si punerea
+lui ca si valoare, gasita la adresa primului nod.
+Se acceseaza recursiv left si right, cu o functie. Se da ca si parametru adresa primului
+nod, se returneaza de la acea functie noul root si rootul de unde a plecat pe edx, 
+respectiv eax.
+In functia recursiva se vede daca noul root este un operator sau nu
+Daca da
+Se umplu recursiv left si right, noduri by default nule
+Daca nu, se trece la valoarea de retur a functiei.
+Asa, se autocompleteaza.
